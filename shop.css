@@ -167,9 +167,14 @@ small{
     transition: transform 0.5s;
 }
 .testimonial .col-3 img{
-    width: 50px;
+    width: 100px;
     margin-top: 20px;
     border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.testimonial .col-3 img:hover{
+    filter: grayscale(0);
 }
 .testimonial .col-3:hover{
     transform: translateY(-20px);
@@ -195,12 +200,12 @@ small{
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    /* -webkit-filter: grayscale(100%); */
     
 }
 .col-5 img:hover{
     filter: grayscale(0);
-    -webkit-filter: grayscale(0);
+    /* -webkit-filter: grayscale(0); */
 }
 /*--------footer------*/
 .footer{

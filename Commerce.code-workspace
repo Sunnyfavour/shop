@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "Commerce",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Commerce"
+  }
+}
